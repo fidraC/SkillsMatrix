@@ -1,15 +1,32 @@
-<!DOCTYPE html>
-
-<head>
+<!doctype html>
+<html>
+  <head>
     <title>Skills Matrix</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/gh/acheong08/HTMJ/htmj.js"
+      defer
+    ></script>
+  </head>
 
-<body>
+  <body>
     <h1>Skills Matrix</h1>
-    <table id="table">
-    </table>
-    <script src="dom_manipulation.js" type="text/javascript" charset="utf-8"></script>
-</body>
 
+    <table id="table">
+      <tr>
+        <th>Language</th>
+        <th>Proficiency</th>
+        <th>Years of Experience</th>
+        <th>Comments</th>
+      </tr>
+      <template hx-endpoint="data.json" hx-action="append">
+        <tr>
+          <td>${name}</td>
+          <td>${proficiency}</td>
+          <td>${years}</td>
+          <td>${comments}</td>
+        </tr>
+      </template>
+    </table>
+  </body>
 </html>

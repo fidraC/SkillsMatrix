@@ -1,8 +1,26 @@
 [
-  {
-    "SKills": "Skill 1",
-    "Checkpoint1": 2,
-    "Checkpoint2": 3,
-    "Checkpoint3": 4
-  }
+	{
+		"name": "Python",
+		"proficiency": "Experienced",
+		"years": "5 years",
+		"comments": "Type hints are nice but might as well use Go."
+	},
+	{
+		"name": "Golang",
+		"proficiency": "Intermediate",
+		"years": "3 years",
+		"comments": "My favorite language. All my new projects are written in Go."
+	},
+	{
+		"name": "JavaScript",
+		"proficiency": "Beginner",
+		"years": "2 years",
+		"comments": "I'm not a fan of JavaScript, but I'm forced to use it. Wrote a framework to make it more bearable."
+	},
+	{
+		"name": "Java",
+		"proficiency": "Beginner",
+		"years": "1 years",
+		"comments": "I learned it in high school. Don't remember much since I never used it in personal projects."
+	}
 ]
